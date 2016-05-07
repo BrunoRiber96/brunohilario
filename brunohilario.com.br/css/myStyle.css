@@ -1,0 +1,116 @@
+﻿
+
+
+	body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+	}
+	
+	p {font-size: 16px;}
+	
+	.margin {margin-bottom: 45px;}
+	
+	.bg-1 { 
+      background-color: #2292A3; /* Green */
+      color: #ffffff;
+	}
+	
+	.bg-2 { 
+      background-color: #071623;     /*000000; Dark Blue */
+      color: #ffffff;
+	}
+	
+	.bg-3 { 
+      background-color: #2C6172; /* White  4D5C5E*/
+      color: #ffffff;
+	}
+	
+	.bg-4 { 
+      background-color: #f8f8f8; /*  Black Gray  046472*/
+      color: #000000;
+	}
+	
+	.container-fluid {
+      padding-top: 5px;
+      padding-bottom: 5px;
+	}
+	
+	.navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+	}
+	
+	.navbar-nav  li a:hover {
+      color: #2292A3 !important;
+	}
+  
+  
+  /**********************
+	   LINK DO FOOTER
+  **********************/
+	a:link {
+    text-decoration: none;
+	color: black;
+	}
+
+	a:visited {
+		text-decoration: none;
+		color: black;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: black;
+	}
+
+	a:active {
+		text-decoration: none;
+		color: black;
+	}
+	
+	/************************
+	    LINK DOS PROJETOS
+   **************************/
+	.projetos:link {
+    text-decoration: none;
+	color: white;
+	}
+
+	.projetos:visited {
+		text-decoration: none;
+		color: white;
+	}
+
+	.projetos:hover {
+		text-decoration: none;
+		color: white;
+	}
+
+	.projetos:active {
+		text-decoration: none;
+		color: white;
+	}
+	
+	#formCont{
+		/*background-color: #BDBEA9;
+		opacity: 0.4;*/
+	}
+	
+	
+	@media only screen and (max-width: 350px) {
+		.teste{
+			align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+			
+		}
+		
+	}
